@@ -1,0 +1,133 @@
+@font-face {
+  font-family: monsRegular;
+  src: url(./Font/static/Montserrat-Regular.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: monsBold;
+  src: url(./Font/static/Montserrat-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: monsSemiBold;
+  src: url(./Font/static/Montserrat-SemiBold.ttf);
+  font-weight: bold;
+}
+
+.primaryFontColor {
+  color: #309edd;
+}
+
+.primaryBgColor {
+  background-color: #309edd;
+}
+
+.fontBold {
+  font-family: monsBold;
+}
+
+.fontSemiBold {
+  font-family: monsSemiBold;
+}
+
+.fontRegular {
+  font-family: monsRegular;
+}
+
+.mainButton {
+  background-color: #309edd;
+  padding: 7px 20px;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.contentButton {
+  background-color: #309edd;
+  padding: 15px 32px;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.contentOutlineButton {
+  color: #309edd;
+  padding: 15px 32px;
+  display: inline-block;
+  font-size: 14px;
+  border: 1px solid #309edd;
+}
+
+.contentOutlineButton:hover {
+  color: #ffffff;
+  padding: 15px 32px;
+  display: inline-block;
+  font-size: 14px;
+  background-color: #3050dd;
+  transition: 0.75s;
+}
+
+body {
+  font-family: monsRegular;
+}
+.customClass {
+  display: flex;
+  text-align: center;
+}
+
+.designBox {
+  background-color: #309edd;
+  width: 95px;
+  height: 7px;
+}
+
+.miniDesignBox {
+  background-color: #e74040;
+  width: 60px;
+  height: 3px;
+}
+.imgIcon {
+  width: 30%;
+  padding: 20px 0px;
+  background-color: #b2e3ff;
+  color: #3050dd;
+  border-radius: 15px;
+}
+
+.mainButton:hover,
+.contentButton:hover {
+  background-color: #3050dd;
+  color: #309edd;
+  display: inline-block;
+  font-size: 14px;
+  transition: 0.75s;
+}
+
+.cardShadow:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: 0.5s;
+}
+
+.btnWhite {
+  color: #309edd;
+  background-color: white;
+  padding: 10px 10px;
+}
+a {
+  text-decoration: none;
+}
+
+.visualHidden {
+  visibility: visible;
+}
+@media (max-width: 576px) {
+  .customClass {
+    display: flex;
+    text-align: center;
+    flex: 100%;
+  }
+  .visualHidden {
+    visibility: hidden;
+    display: none;
+  }
+}
